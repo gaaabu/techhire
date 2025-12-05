@@ -1,0 +1,345 @@
+body {
+    font-family: "Figtree", sans-serif;
+}
+
+.btn-register {
+    background-color: #309689 !important;
+    border: none;
+    color: white !important;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.navbar {
+    background: black !important;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    color: white !important;
+}
+
+.navbar a,
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: #309689;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+.logo{
+    height: 30px;
+    width: auto;
+    
+}
+
+.hero {
+    height: 20vh;
+    padding: 3rem 0 5rem 0;
+    background-color: black;
+}
+
+
+
+.hero h1 {
+    color: white;
+}
+
+.about-description{
+    height: 80vh;
+}
+
+.about-desc-contents{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding-top: 50px; 
+    gap: 20px; 
+}
+
+.left-txt{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    /*padding: 5rem;*/
+}
+
+.right-txt{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /*padding: 5rem;*/
+}
+
+.btm-image{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+
+.btm-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.about-how{
+    height: 80vh;
+    padding: 5rem 0 0rem 0;
+    width: 100%;
+}
+
+.about-how-contents{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;  
+}
+
+.about-how-contents h1{
+    font-weight: bold;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    width: 80%;
+
+}
+
+.about-cards {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 30%;
+    max-width: 300px;
+}
+
+.about-cards h2{
+    color: #309689;
+}
+
+.about-cards:hover{
+    transform: scale(1.05);
+}
+
+.about-faq {
+    height: 65vh;
+    padding: 0rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.faq-main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.faq-card {
+    background-color: white;
+    padding: 30px;
+    width: 1296px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.faq-card h2 {
+    font-family: titleFont !important;
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    font-family: "Figtree", sans-serif;
+}
+
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: max-height 0.3s ease-out;
+    background-color: #EBF5F4;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+}
+
+.arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-working {
+    height: 70vh;
+}
+
+.about-working-contents{
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.about-working-left{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+.about-working-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px 0 0;
+    gap: 50px;
+}
+.working-right-text{
+    width: 100%;
+}
+.working-list{
+    width: 100%;
+}
+.left-image-div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 60%;
+    padding-left: 20%;
+    height: 100%; 
+    overflow: hidden;
+}
+
+.left-image-div img.nvidia{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.right-image-div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+    gap: 20px;
+}
+.right-image-div img.microsoft{
+    width: 80%;
+    height: 290px;
+    object-fit: cover;
+    object-fit: center;
+    border-radius: 10px;
+}
+.right-image-div img.apple{
+    width: 80%;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.about-trait-list {
+    columns: 2;
+    list-style: none;
+}
+
+.about-traits i{
+    margin-right: 10px;
+    color:#309689;
+}
+
+.about-traits{
+    margin-bottom: 50px;
+}
+
+/*FOOTER CSS SA BABA NETO */
+
+.footer{
+    display: flex;
+    height: 30vh;
+    background-color: black !important;
+    color: white;
+    align-items: center;
+
+}
+
+.footer-top {
+    background-color: #f8f9fa;
+    padding: 2rem;
+}
+
+.footer-top-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.footer-text h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-text ul {
+    padding-left: 0;
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+}
+.btn-primary{
+    background-color: #309689 !important;
+    border-color: #309689 !important;
+}
