@@ -111,20 +111,6 @@ The application uses a relational database with the following key schemas:
 
 ---
 
-## 🛣 Routes Overview
-
-| Method | URI | Description | Access |
-| :--- | :--- | :--- | :--- |
-| GET | `/` | Home Page | Public |
-| GET | `/jobs` | List & Search Jobs | Public |
-| GET | `/jobs/{job}` | View Job Details | Public |
-| GET | `/dashboard` | User Dashboard | Protected |
-| POST | `/jobs` | Create Job | Employer |
-| POST | `/jobs/{job}/apply` | Apply for Job | Job Seeker |
-| PATCH | `/applications/{id}/status` | Accept/Reject Applicant | Employer |
-
----
-
 ## 📄 License
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
